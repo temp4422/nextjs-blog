@@ -1,3 +1,5 @@
+const { default: build } = require('next/dist/build')
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   i18n: {
@@ -5,6 +7,7 @@ const nextConfig = {
     defaultLocale: 'en',
   },
 
+  distDir: 'build',
   // Redirect from page
   // async redirects() {
   //   return [
