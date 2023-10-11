@@ -1,2 +1,2 @@
-FROM nginx:mainline-alpine3.18-slim
+FROM nginx:mainline-alpine-slim
 COPY ./build /usr/share/nginx/html
